@@ -1,0 +1,19 @@
+{
+    "name": "vtcong.core.editor",
+    "rootNamespace": "Vtcong.Core.Editor",
+    "references": [
+        "vtcong.core.runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
