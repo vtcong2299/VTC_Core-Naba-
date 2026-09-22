@@ -3,6 +3,7 @@
   "rootNamespace": "Vtcong.Core",
   "references": [
     "Unity.TextMeshPro"
+    "Unity.UGUI"
   ],
   "includePlatforms": [],
   "excludePlatforms": [],
