@@ -18,7 +18,7 @@ https://github.com/vtcong2299/VTC_Core-Naba-.git
 
 | Thư viện | Vì sao | Cài ở đâu |
 |---|---|---|
-| **uGUI + TextMeshPro** (`com.unity.ugui`) | `Graphic`, `Image`, `Button`, `TMP_Text` | Unity cài sẵn |
+| **uGUI + TextMeshPro** (`com.unity.ugui`) | `Graphic`, `Image`, `Button`, `TMP_Text` | **tự cài** (khai báo trong `package.json`) |
 | **Odin Inspector** | 6 file dùng `Sirenix.OdinInspector` không có `#if` bảo vệ | [Asset Store](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) (trả phí) |
 | **DOTween** | 4 file trong `vtcong.ui.runtime` dùng `DG.Tweening` không có `#if` bảo vệ | [Asset Store](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) (bản free đủ dùng) |
 

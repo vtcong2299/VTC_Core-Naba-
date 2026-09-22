@@ -4,6 +4,15 @@ Tất cả thay đổi đáng chú ý của VTC Core được ghi ở đây.
 Định dạng theo [Keep a Changelog](https://keepachangelog.com/vi/1.1.0/),
 đánh số theo [Semantic Versioning](https://semver.org/lang/vi/).
 
+## [1.0.2] - 2026-09-22
+
+### Fixed
+- Khai báo `com.unity.ugui` trong `dependencies` của `package.json`.
+  Project không có sẵn ugui (chỉ có module built-in `com.unity.modules.ui`) thì assembly
+  `UnityEngine.UI` không tồn tại, nên tham chiếu thêm ở 1.0.1 vẫn không phân giải được và
+  lỗi `Graphic could not be found` còn nguyên. Khác với git URL, package registry khai báo
+  trong `dependencies` thì UPM tự cài được.
+
 ## [1.0.1] - 2026-09-22
 
 ### Fixed
