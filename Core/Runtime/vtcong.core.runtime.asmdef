@@ -2,7 +2,7 @@
   "name": "vtcong.core.runtime",
   "rootNamespace": "Vtcong.Core",
   "references": [
-    "Unity.TextMeshPro"
+    "Unity.TextMeshPro",
     "Unity.UGUI"
   ],
   "includePlatforms": [],
