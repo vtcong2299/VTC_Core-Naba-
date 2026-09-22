@@ -2,6 +2,7 @@
     "name": "vtcong.ui.runtime",
     "rootNamespace": "Vtcong.UI",
     "references": [
+        "UnityEngine.UI",
         "vtcong.core.runtime",
         "vtcong.singleton.runtime",
         "Unity.TextMeshPro"

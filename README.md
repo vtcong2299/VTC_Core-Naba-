@@ -14,7 +14,16 @@ https://github.com/vtcong2299/VTC_Core-Naba-.git
 > **Phụ thuộc [VTC Singleton](https://github.com/vtcong2299/VTC_Singleton)** (phần UI dùng
 > `Singleton<T>`) — **package tự cài giúp bạn**, không cần làm gì thêm.
 
-Ngoài ra cần **TextMeshPro** (`com.unity.textmeshpro`), Unity thường cài sẵn.
+### Bắt buộc phải có sẵn trong project
+
+| Thư viện | Vì sao | Cài ở đâu |
+|---|---|---|
+| **uGUI + TextMeshPro** (`com.unity.ugui`) | `Graphic`, `Image`, `Button`, `TMP_Text` | Unity cài sẵn |
+| **Odin Inspector** | 6 file dùng `Sirenix.OdinInspector` không có `#if` bảo vệ | [Asset Store](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041) (trả phí) |
+| **DOTween** | 4 file trong `vtcong.ui.runtime` dùng `DG.Tweening` không có `#if` bảo vệ | [Asset Store](https://assetstore.unity.com/packages/tools/animation/dotween-hotween-v2-27676) (bản free đủ dùng) |
+
+Thiếu Odin hoặc DOTween thì package **không biên dịch được**. Hai thư viện này không phải
+package UPM nên không khai báo được trong `package.json` — phải tự cài trước.
 
 ## Assembly
 

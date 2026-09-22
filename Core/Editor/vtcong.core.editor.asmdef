@@ -2,6 +2,7 @@
     "name": "vtcong.core.editor",
     "rootNamespace": "Vtcong.Core.Editor",
     "references": [
+        "UnityEngine.UI",
         "vtcong.core.runtime",
         "Unity.TextMeshPro"
     ],

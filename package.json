@@ -1,6 +1,6 @@
 {
   "name": "com.vtcong.core",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "displayName": "VTC Core",
   "description": "Bo tien ich core: EventManager, FSM, Process, Extensions, UI, WeightedRandomizer, UnbiasedTime.",
   "unity": "2021.3",

@@ -1,19 +1,21 @@
 {
-  "name": "vtcong.ui.editor",
-  "rootNamespace": "Vtcong.UI.Editor",
-  "references": [
-    "vtcong.ui.runtime",
-    "vtcong.core.runtime"
-  ],
-  "includePlatforms": [
-    "Editor"
-  ],
-  "excludePlatforms": [],
-  "allowUnsafeCode": false,
-  "overrideReferences": false,
-  "precompiledReferences": [],
-  "autoReferenced": true,
-  "defineConstraints": [],
-  "versionDefines": [],
-  "noEngineReferences": false
+    "name": "vtcong.ui.editor",
+    "rootNamespace": "Vtcong.UI.Editor",
+    "references": [
+        "UnityEngine.UI",
+        "vtcong.ui.runtime",
+        "vtcong.core.runtime",
+        "Unity.TextMeshPro"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
 }
