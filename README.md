@@ -25,6 +25,15 @@ https://github.com/vtcong2299/VTC_Core-Naba-.git
 Thiếu Odin hoặc DOTween thì package **không biên dịch được**. Hai thư viện này không phải
 package UPM nên không khai báo được trong `package.json` — phải tự cài trước.
 
+## Cập nhật
+
+Mỗi lần mở Unity Editor, package kiểm tra tất cả các package `com.vtcong.*` đang cài qua git URL:
+
+- Bản thấp hơn 1.1.0 được tự nâng lên `#v1.1.0`, không cần thao tác.
+- Có bản mới hơn trên GitHub thì hiện hộp thoại: **Cập nhật**, **Để sau** (hỏi lại lần mở sau) hoặc **Bỏ qua bản này**.
+
+Không chạy trong batchmode (CI). Mất mạng thì bỏ qua, không báo lỗi.
+
 ## Assembly
 
 | Assembly | Nội dung |
