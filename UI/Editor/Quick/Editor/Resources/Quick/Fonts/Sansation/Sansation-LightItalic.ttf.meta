@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: dfca653e661694040b6d68b5f91803c7
+guid: 6707717f69b544408825934e520e1068
 timeCreated: 1512114443
 licenseType: Store
 TrueTypeFontImporter:
@@ -13,7 +13,7 @@ TrueTypeFontImporter:
   fontNames:
   - Sansation Light
   fallbackFontReferences:
-  - {fileID: 12800000, guid: 851314bc0e1b0a54a9d01add4e73ea94, type: 3}
+  - {fileID: 12800000, guid: df1ab1b82ed9495bb77dc9c6af1ef80a, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

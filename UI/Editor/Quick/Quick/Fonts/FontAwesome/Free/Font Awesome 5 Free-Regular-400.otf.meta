@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: f55b8600f60839641b7300a3f34286e6
+guid: d164e8044ac74efb894604cf637472fe
 timeCreated: 1524317410
 licenseType: Store
 TrueTypeFontImporter:
@@ -13,7 +13,7 @@ TrueTypeFontImporter:
   fontNames:
   - Font Awesome 5 Free
   fallbackFontReferences:
-  - {fileID: 12800000, guid: e85ca265df4cb3e4fb2fc812746fe38d, type: 3}
+  - {fileID: 12800000, guid: a867855213fe406082187d0dc114197d, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1

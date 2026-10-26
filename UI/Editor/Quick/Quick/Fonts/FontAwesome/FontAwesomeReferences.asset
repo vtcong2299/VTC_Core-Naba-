@@ -8,12 +8,12 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 65947e6b438163241a6b8c4b619b59b2, type: 3}
+  m_Script: {fileID: 11500000, guid: e47f8ddabe5b4de69d99bb85792793bf, type: 3}
   m_Name: FontAwesomeReferences
   m_EditorClassIdentifier: 
-  FontAwesomeBrands: {fileID: 12800000, guid: c022bbbf7c12dec4c88fa7b0e625d24a, type: 3}
-  FontAwesomeSolid: {fileID: 12800000, guid: e85ca265df4cb3e4fb2fc812746fe38d, type: 3}
-  FontAwesomeRegular: {fileID: 12800000, guid: f55b8600f60839641b7300a3f34286e6, type: 3}
+  FontAwesomeBrands: {fileID: 12800000, guid: 9e014d75d8b14f3a8aa2a64b3d807857, type: 3}
+  FontAwesomeSolid: {fileID: 12800000, guid: a867855213fe406082187d0dc114197d, type: 3}
+  FontAwesomeRegular: {fileID: 12800000, guid: d164e8044ac74efb894604cf637472fe, type: 3}
   FontAwesomeSolidPro: {fileID: 12800000, guid: 6ed867e4e4543a541b50b507b76d3d7c,
     type: 3}
   FontAwesomeRegularPro: {fileID: 12800000, guid: ae0624f3e91aff9438de59e0b177c83a,
